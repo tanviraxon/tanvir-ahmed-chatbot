@@ -1,0 +1,36 @@
+{
+  "name": "tanvir-ai-whatsapp-bot",
+  "version": "3.0.0",
+  "description": "TANVIR AI — WhatsApp AI chatbot with terminal dashboard, short chat memory and image generation. Telegram: @tanvirmunshi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "ai",
+    "tanvir",
+    "chatbot",
+    "image-generation",
+    "memory"
+  ],
+  "author": "Tanvir (t.me/tanvirmunshi)",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pino": "^9.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
